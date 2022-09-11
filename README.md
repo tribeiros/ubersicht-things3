@@ -7,7 +7,7 @@ Show your today things on desktop
 sqlite cli.  
 `brew install sqlite3`
 
-Change `index.coffe` with your username on __path__ at **sqliteDb** variable
+Change `index.coffe` with __path__ at **sqliteDb** variable
 
 Things 3 :)
 
