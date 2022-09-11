@@ -1,5 +1,5 @@
 refreshFrequency: 60000
-sqliteDb = '/Users/tribeiros/Library/Group Containers/JLMPQHK86H.com.culturedcode.ThingsMac/Things Database.thingsdatabase/main.sqlite'
+sqliteDb = '$HOME/Library/Group Containers/JLMPQHK86H.com.culturedcode.ThingsMac/Things Database.thingsdatabase/main.sqlite'
 todaySql = 'select title from TMTask where status=0'
 command: "sqlite3 '#{sqliteDb}' '#{todaySql}' | cut -d '|' -f6"
 
